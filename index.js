@@ -335,7 +335,4 @@ app.post("/deleteBook", async (req, res) => {
   }
 });
 
-
-app.listen(PORT, () => {
-  console.log(`Server runs on http://localhost:${PORT}`);
-});
+app.listen(3000, "0.0.0.0", () => console.log("Server runs on port 3000"));
